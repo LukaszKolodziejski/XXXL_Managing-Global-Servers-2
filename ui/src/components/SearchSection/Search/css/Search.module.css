@@ -1,0 +1,51 @@
+.Search {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  margin-top: 10px;
+  text-align: left;
+  height: 38px;
+  line-height: 34px;
+  width: 100%;
+  border: 2px solid #d4d7e1;
+  border-radius: 25px;
+  outline: none;
+  background-color: inherit;
+  color: #a9aec1;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (min-width: 1200px) {
+  .Search {
+    width: 263px;
+  }
+}
+
+.Search__Loupe {
+  height: 18px;
+  width: 18px;
+  background-color: inherit;
+  margin: 0 15px 0 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.Search__Input {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Open Sans";
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: #a9aec1;
+}
+
+.Search:hover {
+  border: 2px solid #b4b7c1;
+}
+
+.Search:hover .Search__Loupe {
+  color: #747781;
+}
+/*# sourceMappingURL=Search.module.css.map */

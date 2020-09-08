@@ -1,0 +1,40 @@
+.OneServer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 25% 1fr auto;
+      grid-template-columns: 50% 25% 1fr auto;
+  padding: 6px 0 6px 42px;
+  text-align: left;
+  border-bottom: 2px solid #ededf0;
+  color: #494e61;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 44px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (min-width: 800px) {
+  .OneServer {
+    -ms-grid-columns: 35% 25% 1fr auto;
+        grid-template-columns: 35% 25% 1fr auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .OneServer {
+    -ms-grid-columns: 26% 25% 1fr auto;
+        grid-template-columns: 26% 25% 1fr auto;
+  }
+}
+
+.OneServer:hover {
+  -webkit-box-shadow: 0px 4px 8px 0 #0002;
+          box-shadow: 0px 4px 8px 0 #0002;
+}
+
+.OneServer span {
+  display: inline-block;
+  font-family: "Open Sans";
+}
+/*# sourceMappingURL=OneServer.module.css.map */

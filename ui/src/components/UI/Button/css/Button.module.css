@@ -1,0 +1,37 @@
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.Dropdown__Btn {
+  height: 24px;
+  line-height: 30px;
+  color: #9ca7d3;
+  font-size: 30px;
+  border-radius: 15px;
+  background-color: inherit;
+  border: none;
+}
+
+.Dropdown__Item {
+  color: #494e61;
+  padding: 5px 0 5px 28px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  min-width: 147px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.Dropdown__Item:hover {
+  background-color: #f1f1f1;
+  -webkit-transform: translateX(-2px);
+          transform: translateX(-2px);
+}
+/*# sourceMappingURL=Button.module.css.map */

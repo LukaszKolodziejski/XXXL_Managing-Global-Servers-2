@@ -1,0 +1,16 @@
+.Servers {
+  margin: 0 5vw;
+}
+
+@media (min-width: 800px) {
+  .Servers {
+    margin: 0 12vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Servers {
+    margin: 0 23vw;
+  }
+}
+/*# sourceMappingURL=Servers.module.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;CASd;;AAPC,MAAM,EAAE,SAAS,EAAE,KAAK;EAH1B,AAAA,QAAQ,CAAC;IAIL,MAAM,EAAE,MAAM;GAMjB;;;AAHC,MAAM,EAAE,SAAS,EAAE,MAAM;EAP3B,AAAA,QAAQ,CAAC;IAQL,MAAM,EAAE,MAAM;GAEjB",
+    "sources": [
+        "../scss/Servers.module.scss"
+    ],
+    "names": [],
+    "file": "Servers.module.css"
+}

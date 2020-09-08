@@ -1,0 +1,33 @@
+.Dropdown {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.Dropdown:hover {
+  cursor: pointer;
+}
+
+.Dropdown:hover .Dropdown__List {
+  display: block;
+}
+
+.Dropdown__List {
+  display: none;
+  position: absolute;
+  top: -8px;
+  right: -33px;
+  color: #606060;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  min-width: 137px;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+  overflow: hidden;
+}
+/*# sourceMappingURL=Dropdown.module.css.map */

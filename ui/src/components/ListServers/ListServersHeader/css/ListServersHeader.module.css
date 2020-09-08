@@ -1,0 +1,43 @@
+.ListServersHeader {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50%;
+      grid-template-columns: 50%;
+  padding: 20px 0 7px 42px;
+  text-align: left;
+  border-bottom: 2px solid #ededf0;
+}
+
+@media (min-width: 800px) {
+  .ListServersHeader {
+    -ms-grid-columns: 35% 25%;
+        grid-template-columns: 35% 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ListServersHeader {
+    -ms-grid-columns: 27.1% 25%;
+        grid-template-columns: 27.1% 25%;
+  }
+}
+
+.ListServersHeader span {
+  display: inline-block;
+  color: #9ca7d3;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.ListServersHeader span:nth-child(1) {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.ListServersHeader span:nth-child(2) {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+/*# sourceMappingURL=ListServersHeader.module.css.map */
